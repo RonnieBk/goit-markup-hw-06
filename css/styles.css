@@ -180,6 +180,7 @@ header .contacts a:focus .icon {
 }
 
 .button {
+  border: 0;
   cursor: pointer;
   color: var(--main-color);
   font-size: 16px;
@@ -534,6 +535,7 @@ footer .container {
 
 .footer-social-media {
   margin-left: 70px;
+  margin-right: 78px;
 }
 
 .footer-social-media p {
@@ -555,6 +557,58 @@ footer .container {
 
 footer .social-media-icons.list {
   margin-top: 20px;
+}
+
+.signup-form label {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.signup-form input {
+  padding-left: 16px;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+}
+
+.signup-form div {
+  display: flex;
+  gap: 12px;
+}
+
+.signup-form .button {
+  padding-left: 42px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  line-height: 1.87;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+}
+
+.button .icon {
+  margin-left: 24px;
+  fill: #fff;
+}
+
+.form-input:placeholder-shown {
+  letter-spacing: 0.03em;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .backdrop {
